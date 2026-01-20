@@ -35,7 +35,7 @@ The API is designed with strong schema validation, deterministic feature computa
 ---
 
 ## Project Structure
-
+```
 Insurance_premium_predictor/
 ├── app.py
 ├── Dockerfile
@@ -51,11 +51,11 @@ Insurance_premium_predictor/
 └── schema/
     ├── user_input.py
     └── prediction_response.py
-
+```
 ---
 
 ## Architecture
-
+```
 Client
   |
   v
@@ -75,7 +75,7 @@ Prediction + Probabilities
   |
   v
 JSON Response
-
+```
 ---
 
 ## Features
